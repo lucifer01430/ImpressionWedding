@@ -1,0 +1,303 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F9F6F1;
+    color: #333;
+  }
+  
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  /* Navbar */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #0B0B0B;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .nav-logo {
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #A1661B;
+  }
+  
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background: #fff;
+    margin: 4px 0;
+  }
+  
+  /* Hero */
+  #hero {
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?wedding,elegant') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    background-color: rgba(11, 11, 11, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-logo {
+    height: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-btn {
+    background-color: #A1661B;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s;
+    font-weight: 500;
+  }
+  
+  .hero-btn:hover {
+    background-color: #8c5315;
+  }
+  
+  /* Section Titles */
+  section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #0B0B0B;
+  }
+  
+  /* Cards */
+  .cards, .testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card, .testimonial-card {
+    background-color: #fff;
+    padding: 25px;
+    width: 280px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover, .testimonial-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Gallery */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Accordion */
+  .accordion-item {
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+  }
+  
+  .accordion-header {
+    padding: 15px 20px;
+    background: #F4F0E6;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s;
+  }
+  
+  .accordion-header:hover {
+    background: #e8e2d6;
+  }
+  
+  .accordion-body {
+    display: none;
+    padding: 15px 20px;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  /* Contact */
+  form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  form textarea {
+    height: 120px;
+    resize: vertical;
+  }
+  
+  form button {
+    background: #A1661B;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: background 0.3s;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #8c5315;
+  }
+  
+  /* Footer */
+  footer {
+    background: #0B0B0B;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer img {
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background: #0B0B0B;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      width: auto;
+      padding: 20px;
+      border-radius: 8px;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: flex;
+    }
+  
+    .cards, .testimonial-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+  
