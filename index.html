@@ -2,192 +2,301 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IMPRESSION WEDDING & EVENTS</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=EB+Garamond:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressions Wedding and Events</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=EB+Garamond&display=swap"
+        rel="stylesheet">
+    
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="container">
-      <img src="assets/images/logo.png" alt="Impressions Logo" class="nav-logo">
-      <div class="menu-toggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#faqs">FAQs</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+    <header>
+        <div class="container">
+            <img src="assets/images/logo.png" alt="Impressions Logo" class="logo">
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <!-- Navigation Menu -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <img src="assets/images/logo.png" alt="Impressions Logo" class="hero-logo">
-      <h1>IMPRESSION WEDDING & EVENTS</h1>
-      <p>Crafting Unforgettable Moments</p>
-      <a href="#contact" class="hero-btn">Book Your Event</a>
-    </div>
-  </section>
+    <section id="home" class="hero">
+        <div class="hero-slideshow">
+            <div class="hero-slide active"
+                style="background-image: url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2070&auto=format&fit=crop');">
+            </div>
+            <div class="hero-slide"
+                style="background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop');">
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1>Impressions Wedding & Events</h1>
+            <p>Elegance in Every Moment – Crafting Your Dream Day with Love and Precision</p>
+            <a href="#contact" class="btn">Plan Your Day</a>
+        </div>
+    </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>At Impression Wedding & Events, we specialize in transforming your dreams into elegant, unforgettable events. From intimate gatherings to grand celebrations, our creative team designs personalized experiences filled with joy, beauty, and style.</p>
-      <p>Our expertise spans across cultural, traditional, and destination weddings. We believe every love story is unique — and so should be its celebration.</p>
-    </div>
-  </section>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop"
+                        alt="Wedding Planning">
+                </div> <br>
+                <div class="about-text">
+                    <p>At Impressions Wedding and Events, we believe that every love story deserves a celebration as
+                        unique as the couple itself. With over a decade of experience in the wedding and event planning
+                        industry, our team is dedicated to turning your vision into reality. From intimate ceremonies to
+                        grand celebrations, we handle every detail with care, creativity, and a passion for perfection.
+                    </p>
+                    <p>Our journey began with a simple mission: to create moments that last a lifetime. We pride
+                        ourselves on our personalized approach, ensuring that every event reflects your style, culture,
+                        and personality. Whether you're dreaming of a romantic garden wedding, a luxurious ballroom
+                        affair, or a destination celebration, we’re here to make it happen.</p>
+                </div>
 
-  <!-- Services Section -->
-  <section id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Wedding Planning</h3>
-          <p>Complete end-to-end planning for your dream wedding.</p>
+            </div>
         </div>
-        <div class="card">
-          <h3>Corporate Events</h3>
-          <p>Seamlessly executed professional events & launches.</p>
-        </div>
-        <div class="card">
-          <h3>Social Events</h3>
-          <p>Exclusive gatherings from birthdays to anniversaries.</p>
-        </div>
-        <div class="card">
-          <h3>Destination Weddings</h3>
-          <p>Celebrate at exotic destinations with ease and elegance.</p>
-        </div>
-        <div class="card">
-          <h3>Decor & Styling</h3>
-          <p>Unique themes, floral artistry, and bespoke décor styling.</p>
-        </div>
-        <div class="card">
-          <h3>Catering & Hospitality</h3>
-          <p>Curated menus, guest welcome, and luxury hospitality management.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container">
-      <h2>Our Portfolio</h2>
-      <div class="gallery">
-        <img src="https://source.unsplash.com/400x400/?wedding,dance" alt="Portfolio Image">
-        <img src="https://source.unsplash.com/400x401/?wedding,venue" alt="Portfolio Image">
-        <img src="https://source.unsplash.com/400x402/?wedding,couple" alt="Portfolio Image">
-        <img src="https://source.unsplash.com/400x403/?wedding,stage" alt="Portfolio Image">
-        <img src="https://source.unsplash.com/400x404/?wedding,decor" alt="Portfolio Image">
-        <img src="https://source.unsplash.com/400x405/?wedding,cake" alt="Portfolio Image">
-      </div>
-    </div>
-  </section>
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop"
+                        alt="Wedding Planning">
+                    <h3>Wedding Planning</h3>
+                    <p>We offer full-service wedding planning, taking care of every detail from venue selection to
+                        vendor coordination. Our team ensures that your big day runs smoothly, allowing you to focus on
+                        making memories with your loved ones.</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=2070&auto=format&fit=crop"
+                        alt="Decor Design">
+                    <h3>Decor & Design</h3>
+                    <p>Transform your venue into a breathtaking space with our bespoke decor services. From floral
+                        arrangements to lighting and table settings, we create a cohesive design that matches your theme
+                        and vision.</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=2070&auto=format&fit=crop"
+                        alt="Event Management">
+                    <h3>Event Management</h3>
+                    <p>Our event management services ensure flawless execution on the day of your event. We coordinate
+                        timelines, manage vendors, and handle any last-minute challenges, so you can enjoy your
+                        celebration stress-free.</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2070&auto=format&fit=crop"
+                        alt="Destination Weddings">
+                    <h3>Destination Weddings</h3>
+                    <p>Dreaming of a wedding in a far-off location? We specialize in planning destination weddings,
+                        handling logistics, travel arrangements, and local vendor coordination to make your dream
+                        wedding a reality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Team Section -->
-  <section id="team">
-    <div class="container">
-      <h2>Meet Our Team</h2>
-      <div class="cards">
-        <div class="card">
-          <img src="https://source.unsplash.com/200x200/?man,ceo" alt="Founder">
-          <h3>Rohit Malhotra</h3>
-          <p>Founder & Creative Director</p>
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2070&auto=format&fit=crop"
+                        alt="Wedding 1"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop"
+                        alt="Wedding 3"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=2070&auto=format&fit=crop"
+                        alt="Wedding 4"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=2070&auto=format&fit=crop"
+                        alt="Wedding 5"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2070&auto=format&fit=crop"
+                        alt="Wedding 6"></div>
+                <div class="gallery-item"><img
+                        src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2070&auto=format&fit=crop"
+                        alt="Wedding 1"></div>
+            </div>
         </div>
-        <div class="card">
-          <img src="https://source.unsplash.com/200x200/?woman,eventplanner" alt="Manager">
-          <h3>Sneha Verma</h3>
-          <p>Senior Event Manager</p>
-        </div>
-        <div class="card">
-          <img src="https://source.unsplash.com/200x200/?man,designer" alt="Stylist">
-          <h3>Akshay Mehta</h3>
-          <p>Decor & Styling Head</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- FAQs Section with dropdown -->
-  <section id="faqs">
-    <div class="container">
-      <h2>Frequently Asked Questions</h2>
-      <div class="accordion">
-        <div class="accordion-item">
-          <button class="accordion-header">Do you provide destination wedding planning?</button>
-          <div class="accordion-body">
-            <p>Yes, we specialize in both domestic and international destination weddings, including venue booking, travel, and logistics.</p>
-          </div>
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=2070&auto=format&fit=crop"
+                        alt="Priya & Arjun">
+                    <p>"Impressions Wedding and Events made our wedding day absolutely magical! From the stunning decor
+                        to the seamless coordination, everything was perfect. We couldn’t have asked for a better team
+                        to bring our vision to life."</p>
+                    <h4>- Priya & Arjun, Mumbai</h4>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&w=2070"
+                        alt="Sneha & Rohan">
+                    <p>"The team at Impressions was professional, creative, and so easy to work with. They took care of
+                        every detail, allowing us to enjoy our day without any stress. Our guests are still talking
+                        about how beautiful everything was!"</p>
+                    <h4>- Sneha & Rohan, Delhi</h4>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop"
+                        alt="Aisha & Vikram">
+                    <p>"We had a destination wedding in Goa, and Impressions handled everything flawlessly. From travel
+                        arrangements to local vendors, they made it a dream come true. Thank you for making our day so
+                        special!"</p>
+                    <h4>- Aisha & Vikram, Bangalore</h4>
+                </div>
+            </div>
         </div>
-        <div class="accordion-item">
-          <button class="accordion-header">How far in advance should we book your services?</button>
-          <div class="accordion-body">
-            <p>Ideally, 6–12 months prior to your event. However, we also accommodate last-minute bookings if available.</p>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <button class="accordion-header">Can we customize themes and decor?</button>
-          <div class="accordion-body">
-            <p>Absolutely! Our stylists work closely with you to design personalized themes tailored to your story and preferences.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Testimonials Section -->
-  <section id="testimonials">
-    <div class="container">
-      <h2>What Our Clients Say</h2>
-      <div class="testimonial-cards">
-        <div class="testimonial-card">
-          <p>"Impression Events made our wedding magical — from planning to execution, everything was flawless!"</p>
-          <h4>– Aditi Sharma</h4>
+    <section id="team" class="section">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=2070&auto=format&fit=crop"
+                        alt="Team Member 1">
+                    <h3>Anita Sharma</h3>
+                    <p>Lead Planner</p>
+                    <p>With 15 years of experience, Anita ensures every wedding is a masterpiece. Her attention to
+                        detail and passion for creating magical moments make her the heart of our team.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2070&auto=format&fit=crop"
+                        alt="Team Member 2">
+                    <h3>Ravi Kapoor</h3>
+                    <p>Creative Director</p>
+                    <p>Ravi brings creativity and innovation to every event. His expertise in design and decor ensures
+                        that every celebration is visually stunning and unforgettable.</p>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2070&auto=format&fit=crop"
+                        alt="Team Member 3">
+                    <h3>Meera Desai</h3>
+                    <p>Event Coordinator</p>
+                    <p>Meera’s organizational skills and calm demeanor make her the perfect coordinator. She ensures
+                        every event runs smoothly, no matter the scale.</p>
+                </div>
+            </div>
         </div>
-        <div class="testimonial-card">
-          <p>"Professional, passionate, and truly dedicated. Highly recommended for any luxurious celebration."</p>
-          <h4>– Rahul Mehta</h4>
+    </section>
+
+    <section id="faq" class="section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">How far in advance should we book your services? <span
+                            class="faq-toggle">+</span></h3>
+                    <div class="faq-answer">
+                        <p>We recommend booking at least 6-12 months in advance to secure your date, especially for peak
+                            wedding seasons. However, we can accommodate last-minute bookings depending on availability.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Do you handle destination weddings? <span class="faq-toggle">+</span></h3>
+                    <div class="faq-answer">
+                        <p>Absolutely! We specialize in destination weddings and have planned events in locations like
+                            Goa, Udaipur, and even international destinations like Bali and Italy. We take care of all
+                            logistics, travel arrangements, and local vendor coordination.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">Can you work within our budget? <span class="faq-toggle">+</span></h3>
+                    <div class="faq-answer">
+                        <p>Yes, we work closely with our clients to create a wedding that fits their budget. We offer
+                            customizable packages and can suggest cost-effective solutions without compromising on
+                            quality.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <h3 class="faq-question">What makes Impressions different from other planners? <span
+                            class="faq-toggle">+</span></h3>
+                    <div class="faq-answer">
+                        <p>Our personalized approach, attention to detail, and passion for creating unique experiences
+                            set us apart. We treat every event as if it were our own, ensuring that every moment is
+                            perfect.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form action="#" method="post">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <input type="tel" placeholder="Your Phone" required>
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-    </div>
-  </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p style="text-align: center;">Ready to start planning your dream wedding or event?</p><br>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Your Phone Number" required>
+                <input type="text" placeholder="Event Date" required>
+                <textarea placeholder="Tell us about your event (e.g., wedding type, guest count, location)"
+                    required></textarea>
+                <button type="submit" class="btn">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <img src="assets/images/logo.png" alt="Logo">
-      <p>&copy; 2025 Impression Wedding & Events. All Rights Reserved.</p>
-    </div>
-  </footer>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="Impressions Logo">
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@impressionsweddings.com</p>
+                    <p>Phone: +91 98765 43210</p>
+                    <p>Address: 123 Wedding Lane, Mumbai, India</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/impressions_events_weddings" target="_blank">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Pinterest</a>
+            </div>
+            <p>© 2025 Impressions Wedding and Events. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
